@@ -4,7 +4,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # Zsh theme
 ZSH_THEME="robbyrussell"
 
-# Options
+# # Options
 # CASE_SENSITIVE="true"
 # ENABLE_CORRECTION="true"
 
@@ -36,3 +36,9 @@ alias gcm='git commit -m'
 alias gpsh='git push'
 alias gss='git status -s'
 alias gs='echo ""; echo "*********************************************"; echo -e "   DO NOT FORGET TO PULL BEFORE COMMITTING"; echo "*********************************************"; echo ""; git status'
+alias gfa='git fetch --all --prune'
+
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
